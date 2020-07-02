@@ -3,14 +3,12 @@ package com.coderprabhu.reactive;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import lombok.extern.log4j.Log4j2;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.FluxSink;
 import reactor.core.publisher.ReplayProcessor;
 import reactor.test.StepVerifier;
 
 @SpringBootTest
-@Log4j2
 class ReplayProcessorTest {
 
 	@Test

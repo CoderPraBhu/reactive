@@ -1,20 +1,13 @@
 package com.coderprabhu.reactive;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.atomic.AtomicInteger;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import lombok.extern.log4j.Log4j2;
 import reactor.core.publisher.EmitterProcessor;
-import reactor.core.publisher.Flux;
 import reactor.core.publisher.FluxSink;
 import reactor.test.StepVerifier;
 
 @SpringBootTest
-@Log4j2
 class EmitterProcessorTest {
 
 	@Test
